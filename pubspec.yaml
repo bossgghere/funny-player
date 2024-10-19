@@ -1,0 +1,40 @@
+name: todo
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audios/10.wav
+    - assets/audios/11.wav
+    - assets/audios/12.wav
+    - assets/audios/13.wav
+    - assets/audios/14.m4a
+    - assets/audios/1.wav
+    - assets/audios/2 cartoon-toy-whistle.wav
+    - assets/audios/3 apocalypse-horn.wav
+    - assets/audios/4 clown-funny.wav
+    - assets/audios/5.wav
+    - assets/audios/6.wav
+    - assets/audios/7.wav
+    - assets/audios/8.wav
+    - assets/audios/9.wav
+
